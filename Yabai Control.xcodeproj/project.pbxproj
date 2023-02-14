@@ -8,18 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		801FAD0F299C134100CFD748 /* Yabai_ControlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801FAD0E299C134100CFD748 /* Yabai_ControlApp.swift */; };
-		801FAD11299C134100CFD748 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801FAD10299C134100CFD748 /* ContentView.swift */; };
 		801FAD13299C134300CFD748 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 801FAD12299C134300CFD748 /* Assets.xcassets */; };
 		801FAD16299C134300CFD748 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 801FAD15299C134300CFD748 /* Preview Assets.xcassets */; };
+		801FAD1E299C38CB00CFD748 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801FAD1D299C38CB00CFD748 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		801FAD0B299C134100CFD748 /* Yabai Control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yabai Control.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		801FAD0E299C134100CFD748 /* Yabai_ControlApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yabai_ControlApp.swift; sourceTree = "<group>"; };
-		801FAD10299C134100CFD748 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		801FAD12299C134300CFD748 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		801FAD15299C134300CFD748 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		801FAD17299C134300CFD748 /* Yabai_Control.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Yabai_Control.entitlements; sourceTree = "<group>"; };
+		801FAD1D299C38CB00CFD748 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +53,10 @@
 			isa = PBXGroup;
 			children = (
 				801FAD0E299C134100CFD748 /* Yabai_ControlApp.swift */,
-				801FAD10299C134100CFD748 /* ContentView.swift */,
 				801FAD12299C134300CFD748 /* Assets.xcassets */,
 				801FAD17299C134300CFD748 /* Yabai_Control.entitlements */,
 				801FAD14299C134300CFD748 /* Preview Content */,
+				801FAD1D299C38CB00CFD748 /* ContentView.swift */,
 			);
 			path = "Yabai Control";
 			sourceTree = "<group>";
@@ -139,7 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				801FAD11299C134100CFD748 /* ContentView.swift in Sources */,
+				801FAD1E299C38CB00CFD748 /* ContentView.swift in Sources */,
 				801FAD0F299C134100CFD748 /* Yabai_ControlApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
