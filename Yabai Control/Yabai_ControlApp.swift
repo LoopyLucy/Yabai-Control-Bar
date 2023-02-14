@@ -12,10 +12,7 @@ struct Yabai_ControlApp: App {
     @State var tiled: Bool = true
 
     var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
-           
+
         MenuBarExtra("Yabai Control", image: tiled ? "Tiled" : "Loose") {
             
             Button("Start Yabai") {
