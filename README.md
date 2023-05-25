@@ -1,6 +1,9 @@
 # Yabai-Control-Bar
 Simple SwiftUI menubar application to control the Yabai window manager!
 
+![Tiled](https://media.discordapp.net/attachments/402046007036346370/1111413269979209828/image.png?width=470&height=416)
+![Not tiled](https://media.discordapp.net/attachments/402046007036346370/1111413603749343242/image.png?width=470&height=344)
+
 # Installation Instructions
 
 Install Yabai:
