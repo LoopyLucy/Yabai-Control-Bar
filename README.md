@@ -17,3 +17,5 @@ Then grab the latest [release](https://github.com/LoopyLucy/Yabai-Control-Bar/re
 This is an unsigned app, you will have to `right click the app and click open` first before MacOS will allow the app to run.
 
 Love ya <3
+
+PS. If you want any features added let me know.
