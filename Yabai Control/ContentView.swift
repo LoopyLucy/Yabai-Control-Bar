@@ -18,10 +18,10 @@ struct ContentView: View {
                     .toggleStyle(SwitchToggleStyle(tint: .blue))
                     .onChange(of: isTiled) { value in
                         if value {
-                            do { try safeShell("brew services start yabai") } catch {}
+                            do { try safeShell("yabai --start-service") } catch {}
                             
                         } else {
-                            do { try safeShell("brew services stop yabai") } catch {}
+                            do { try safeShell("yabai --stop-service") } catch {}
                         }
                         
                     }
@@ -30,7 +30,7 @@ struct ContentView: View {
             Divider()
             
             Button("Reset Yabai") {
-                do { try safeShell("brew services restart yabai") } catch {}
+                do { try safeShell("yabai --restart-service") } catch {}
             }
             
             Button("Open Yabai Settings") {
