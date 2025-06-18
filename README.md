@@ -1,3 +1,5 @@
+Heya babes, my MacBook died so I'm obviously not maintaining this for the moment. I will review and accept merge requests though, feel free to fork, it's not exactly a complex project 😅
+
 # Yabai-Control-Bar
 Simple SwiftUI menubar application to control the Yabai window manager!
 
